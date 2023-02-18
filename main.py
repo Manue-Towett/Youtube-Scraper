@@ -27,7 +27,7 @@ class FCCScraper:
         self.videos, self.video_count = [], 0
         
         self.date_regx = re.compile(r"\d+\s+[A-Za-z]+\s+ago\b")
-        self.views_regex = re.compile(r"\b\d+(?:,\d+)?\s(view[s]?)$")
+        self.views_regex = re.compile(r"\b\d+(?:,\d+)?(?:,\d+)?\s(view[s]?)$")
         self.date_views = re.compile(r"\b\d+.+(view[s]?)$")
 
         self.queue = Queue()
