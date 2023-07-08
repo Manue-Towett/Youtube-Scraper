@@ -1,14 +1,17 @@
-This is a simple webscraper for YouTube courses from freeCodeCamp channel. It uses headless browser to fetch the following data:
- - course title
+# Youtube Scraper
+Scrapes videos from a given channel
+This project was inspired by the need to get data for a machine learning project
+
+### Requires
+python 3.11
+
+### Data Extracted
+ - video title
  - video length
  - date posted
  - video link
  
-This project was inspired by the need to get data for a machine learning project
-
-Requires python version 3.11+
-
-Usage
+### Usage
 - open the command prompt
 - cd into the project directory
 - If running for the first time:
