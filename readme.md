@@ -1,6 +1,6 @@
 # Youtube Scraper
 Scrapes videos from a given channel.
-This project was inspired by the need to get data for a machine learning project
+This project was inspired by the need to get data for a machine learning project.
 
 ### Requires
 python 3.11
